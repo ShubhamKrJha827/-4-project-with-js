@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice async </title>
+</head>
+<body>
+    <h1>chai or pratice javascript</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+    // setInterval(function(){
+    //     console.log("shubham",date.now())
+    // },1000)
+
+    const seydate = function(str){
+        console.log(str,Date.now())
+    }
+    const intervalid = setInterval(seydate,1000,"shubham");
+    clearInterval(intervalid);
+</script>
+</html>
